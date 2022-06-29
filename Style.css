@@ -1,0 +1,98 @@
+body>.first-parg {
+    margin-bottom: 1;
+    font-family: Optima;
+    width: 1000px;
+}
+
+hr {
+    margin-top: 1;
+}
+
+.first {
+    display: flex;
+    align-items: flex-start;
+}
+
+.first .block {
+    width: 35%;
+
+}
+
+.first .block>a {
+    display: block;
+    margin-bottom: 5%;
+}
+
+
+.first .block>input[type=text]:nth-child(3) {
+    display: block;
+    margin-bottom: 5%;
+    text-align: center;
+    color: black;
+}
+
+.first .block>label {
+    display: block;
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+
+.first .block>input[type=number]:nth-child(9) {
+    width: 40px;
+}
+
+.first .box {
+    flex-basis: 33%;
+}
+
+.info .box .box-a {
+    display: flex;
+}
+
+.first .box .box-a>img {
+    flex-basis: 17%;
+    margin-right: 4%;
+}
+
+.first .box .box-a>p>span {
+    display: block;
+}
+
+.first .images>div {
+    margin-bottom: 7%;
+}
+
+.first .images>div>p:first-child {
+    color: #b7155e;
+    font-weight: bold;
+}
+
+.first .images>div>p {
+    margin: 0;
+}
+
+.San p:first-child {
+    color: #b7155e;
+}
+
+.San p {
+    margin: 0;
+}
+
+.As-seen {
+    width: 64%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.As-seen p {
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(90, 90, 90);
+}
+
+footer {
+    margin: 5px;
+    background-color: azure;
+}
